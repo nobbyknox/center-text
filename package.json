@@ -1,0 +1,22 @@
+{
+  "name": "center-text",
+  "version": "0.0.1",
+  "description": "Centers text in a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobbyknox/center-text.git"
+  },
+  "author": "Nobby Knox <nobbyknox@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nobbyknox/center-text/issues"
+  },
+  "homepage": "https://github.com/nobbyknox/center-text#readme",
+  "dependencies": {
+    "mocha": "^2.4.5"
+  }
+}
