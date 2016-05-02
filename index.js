@@ -2,13 +2,13 @@
 
 module.exports = function(text, width) {
 
-	if (!text) {
-		return '';
-	}
+    if (!text) {
+        return '';
+    }
 
-	if (text.length >= width) {
-		return text;
-	}
+    if (text.length >= width) {
+        return text;
+    }
 
     let str = '';
 
@@ -18,5 +18,4 @@ module.exports = function(text, width) {
 
     str += text;
     return str;
-}
-
+};
