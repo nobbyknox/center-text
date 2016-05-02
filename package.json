@@ -1,7 +1,7 @@
 {
-  "name": "center-text",
+  "name": "@nobbyknox/center-text",
   "version": "0.0.1",
-  "description": "Centers text in a string",
+  "description": "Left pads a string in order to center it where it is used",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec test/"
